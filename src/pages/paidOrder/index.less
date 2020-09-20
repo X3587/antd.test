@@ -1,0 +1,174 @@
+.order {
+  background-color: #fff;
+  padding: 20px;
+
+  .left_top {
+    width: 260px;
+
+    .image {
+      img {
+        width: 260px;
+        height: 260px;
+      }
+    }
+
+    .info {
+      border: 1px solid #e6e6ed;
+      padding: 20px;
+
+      .items {
+        font-size: 16px;
+        color: #5a5971;
+        border-bottom: 1px #e6e6ed dashed;
+
+        .title {
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+
+        .name {
+          margin-bottom: 10px;
+        }
+      }
+
+      .items:last-of-type {
+        font-size: 16px;
+        color: #5a5971;
+        border: none;
+
+        .title {
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+
+        .name {
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+
+  .left {
+    border: 1px solid #e6e6ed;
+    width: 260px;
+    margin-top: 20px;
+    color: #5a5971;
+    font-size: 16px;
+
+    .notice {
+      padding: 20px;
+      border-bottom: 1px solid #e6e6ed;
+    }
+
+    .tips {
+      padding: 50px 20px 50px 20px;
+      border-top: 1px solid #e6e6ed;
+      border-bottom: 1px solid #e6e6ed;
+    }
+
+    .time {
+      padding: 20px;
+
+      .time_header {
+        margin-bottom: 20px;
+      }
+
+      .time_content {
+        margin-bottom: 40px;
+      }
+    }
+  }
+
+  .right {
+    color: #3c3b57;
+    .right_title {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+
+    .right_tip {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .right_price {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .right_actual {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .right_version {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+
+    .right_days {
+      font-size: 16px;
+      margin-bottom: 10px;
+      .radio_item {
+        margin-right: 20px;
+      }
+    }
+    .btns {
+      margin-left: 75px;
+      margin-top: 20px;
+      cursor: pointer;
+      div {
+        width: 194px;
+        height: 52px;
+        background-color: #2B4695;
+        border-radius: 4px;
+        line-height: 52px;
+        text-align: center;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      div:hover{
+        width: 194px;
+        height: 52px;
+        background-color: #40A9FF;
+        border-radius: 4px;
+        line-height: 52px;
+        text-align: center;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+    .right_img {
+      margin-top: 70px;
+    }
+    :global {
+      .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+        color: #2b4695 !important;
+        border-color: #2b4695 !important;
+      }
+
+      .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before {
+        background-color: #2b4695 !important;
+      }
+
+      .ant-radio-button-wrapper:hover {
+        color: #2b4695 !important;
+      }
+
+      .ant-radio-button-wrapper {
+        background-color: #fff !important;
+        border-left: 1px solid #d9d9d9 !important;
+        border-radius: 3px;
+      }
+
+      .ant-radio-button-wrapper-checked {
+        background-color: #d4daea !important;
+      }
+      .ant-radio-button-wrapper:not(:first-child)::before {
+        display: none !important;
+      }
+    }
+  }
+}
